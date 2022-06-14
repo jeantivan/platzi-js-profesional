@@ -1,5 +1,7 @@
 De un array de promesas Promise.race() retorna la promesa que se resuelva primero
 
+
+// AbortController
 AbortController nos permite cancelar una petición fetch: 
 
 1. Instanciamos un variable con new AbortController(); 
