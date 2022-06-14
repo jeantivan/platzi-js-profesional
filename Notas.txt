@@ -1,0 +1,13 @@
+De un array de promesas Promise.race() retorna la promesa que se resuelva primero
+
+AbortController nos permite cancelar una petición fetch: 
+
+1. Instanciamos un variable con new AbortController(); 
+
+  const controller = new AbortController();
+
+2. A la petición fetch le pasamos un obj config con la una señal de la siguiente manera:
+  
+  const response = fetch(url, { signal: controller.signal() })
+
+3. Ahora cada vez que queramos cancelar alguna petición fetch solo tenemos que llamar a controller.abort();
