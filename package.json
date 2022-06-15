@@ -4,13 +4,16 @@
   "description": "Proyecto del Curso Profesional de JavaScript de Platzi",
   "main": "index.js",
   "scripts": {
-    "start": "live-server",
+    "start": "parcel index.html ejercicios/index.html ejercicios/**/*.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Jean Tivan <jptivan53@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "live-server": "^1.2.2"
-  }
+    "parcel-bundler": "^1.12.5"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ]
 }
