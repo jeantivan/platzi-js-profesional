@@ -13,3 +13,36 @@ AbortController nos permite cancelar una petición fetch:
   const response = fetch(url, { signal: controller.signal() })
 
 3. Ahora cada vez que queramos cancelar alguna petición fetch solo tenemos que llamar a controller.abort();
+
+
+// Patrones de diseños
+
+Son una solución para un problema dentro de un contexto
+
+* El contexto es la situación donde el patrón aplica.
+* Esta situación debe ser recurrente
+* Ejemplo: Muchos objetos están interesados en el estado de otro objetos
+
+* Un diseño genérico que alcanza la meta dentro del contexto
+* Ejemplo: Crear una clase donde cualquier objeto se puede suscribir y desuscribir
+a cambios en el estado (Observer pattern)
+
+Beneficios: 
+
+* Los patrones de diseño son una caja de herramientas de soluciones bien probadas
+a problemas comunes en diseño de software.
+
+* Te proveen un lenguaje común que permite comunicarse de forma específica y eficiente
+
+Crítica: 
+
+* Los patrones de diseño son una forma de complejidad
+ 
+* Son soluciones a las limitaciones de un lenguaje de programación.
+
+* "Cuando lo que tienes es un martillo, todo te parece un clavo"
+
+
+
+
+
