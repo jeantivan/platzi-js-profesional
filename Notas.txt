@@ -62,4 +62,6 @@ Ej: Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy
 Ej: Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method, Visitor
 
 
+// Patron Singleton (Creacional): Es un patrón que te asegura que una clase solo tiene una instancia. Esta única instancia puede ser consumida por cualquier otro objeto
+
 
