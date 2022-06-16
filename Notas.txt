@@ -42,7 +42,24 @@ Crítica:
 
 * "Cuando lo que tienes es un martillo, todo te parece un clavo"
 
+// Categorías de patrones de diseño
+Patrones creacionales, patrones estructurales, patrones de comportamiento
 
+1. Patrones creacionales: Proveen diferentes mecanismos para crear objetos.
+
+Ej: Abstract Factory, Builder, Factory Method, Prototype, Singleton
+
+Builder: Es usado para permitir la creación de una variedad de objetos complejos desde un objeto fuente.
+Separa la creación de un objeto complejo de su estructura, de tal forma que el mismo proceso de construcción
+puede servir para crear representaciones diferentes
+
+2. Patrones estructurales: Describen formas de componer objetos para formar nuevas estructuras flexibles y eficientes
+
+Ej: Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy
+
+3. Patrones de comportamiento: Gestionan algoritmos y responsabilidades entre objetos.
+
+Ej: Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method, Visitor
 
 
 
